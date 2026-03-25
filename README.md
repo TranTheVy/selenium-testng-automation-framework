@@ -1,4 +1,4 @@
-# selenium-testng-automation-framework
+# Selenium-testng-automation-framework
 Selenium TestNG Automation Framework
 Overview
 
@@ -78,3 +78,34 @@ Example login test using Data Provider:
 | wrong    | wrong                | Invalid Username |
 | tomsmith | wrong                | Invalid Password |
 
+Running the Tests
+Clone the repository:
+  git clone https://github.com/TranTheVy/selenium-testng-automation-framework.git
+Run tests using Maven:
+  mvn test
+Or run the TestNG suite:
+  testng.xml
+
+Test Report
+After execution, reports can be found in: test-output/
+Extent report example:extend-report.html
+This report includes:
+  Test execution results
+  Logs
+  Screenshots for failed tests
+
+Future Improvements
+Possible enhancements for this framework:
+  Selenium Grid support
+  Docker test execution
+  CI/CD integration
+  Allure reporting
+  API testing integration
+
+Author
+Tran The Vy
+Automation QA / Software Tester
+
+Contact
+GitHub:
+https://github.com/TranTheVy
